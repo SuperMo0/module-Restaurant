@@ -3,7 +3,6 @@ import image2 from "./../images/s2.jpg";
 import image3 from "./../images/s3.jpg";
 export default function () {
 
-
     let Container = document.getElementById("main_content");
     Container.style.display = "flex";
     Container.style.gap = "40px";
