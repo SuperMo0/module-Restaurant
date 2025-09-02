@@ -1,4 +1,4 @@
-import image1 from "./s.jpg";
+import image1 from "./../images/s.jpg";
 import image2 from "./../images/s2.jpg";
 import image3 from "./../images/s3.jpg";
 export default function () {
@@ -7,6 +7,7 @@ export default function () {
     let Container = document.getElementById("main_content");
     Container.style.display = "flex";
     Container.style.gap = "40px";
+    Container.style.flexWrap = "wrap";
     Container.style.justifyContent = "center";
     Container.style.marginTop = "50px"
 
