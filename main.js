@@ -20,6 +20,16 @@ eval("{module.exports = __webpack_require__.p + \"5f93ec59e43086c45938.jpg\";\n\
 
 /***/ }),
 
+/***/ "./images/s.jpg":
+/*!**********************!*\
+  !*** ./images/s.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("{module.exports = __webpack_require__.p + \"8f87d519d36ee1dbc0f0.jpg\";\n\n//# sourceURL=webpack://module-restaurant/./images/s.jpg?\n}");
+
+/***/ }),
+
 /***/ "./images/s2.jpg":
 /*!***********************!*\
   !*** ./images/s2.jpg ***!
@@ -146,7 +156,7 @@ eval("{\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleEle
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _s_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./s.jpg */ \"./src/s.jpg\");\n/* harmony import */ var _images_s2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/s2.jpg */ \"./images/s2.jpg\");\n/* harmony import */ var _images_s3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/s3.jpg */ \"./images/s3.jpg\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n\n    let Container = document.getElementById(\"main_content\");\n    Container.style.display = \"flex\";\n    Container.style.gap = \"40px\";\n    Container.style.justifyContent = \"center\";\n    Container.style.marginTop = \"50px\"\n\n    let card1 = document.createElement(\"div\");\n    card1.classList.add(\"card\");\n\n    let img1 = document.createElement(\"img\");\n    img1.src = _s_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    let text = document.createElement(\"h1\")\n\n    text.textContent = \"Mushroom & Herb Broth\";\n\n    card1.appendChild(img1);\n    card1.appendChild(text);\n    let arr = [card1, card1.cloneNode(true), card1.cloneNode(true)];\n    arr[1].firstChild.src = _images_s2_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    arr[2].firstChild.src = _images_s3_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    arr[2].childNodes[1].textContent = \"Spicy Sichuan Broth\";\n    arr[1].childNodes[1].textContent = \"Premium Beef Platter\";\n    arr.forEach((c) => { Container.appendChild(c) });\n}\n\n//# sourceURL=webpack://module-restaurant/./src/Menu.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_s_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../images/s.jpg */ \"./images/s.jpg\");\n/* harmony import */ var _images_s2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/s2.jpg */ \"./images/s2.jpg\");\n/* harmony import */ var _images_s3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/s3.jpg */ \"./images/s3.jpg\");\n\n\n\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n    let Container = document.getElementById(\"main_content\");\n    Container.style.display = \"flex\";\n    Container.style.gap = \"40px\";\n    Container.style.flexWrap = \"wrap\";\n    Container.style.justifyContent = \"center\";\n    Container.style.marginTop = \"50px\"\n\n    let card1 = document.createElement(\"div\");\n    card1.classList.add(\"card\");\n\n    let img1 = document.createElement(\"img\");\n    img1.src = _images_s_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    let text = document.createElement(\"h1\")\n\n    text.textContent = \"Mushroom & Herb Broth\";\n\n    card1.appendChild(img1);\n    card1.appendChild(text);\n    let arr = [card1, card1.cloneNode(true), card1.cloneNode(true)];\n    arr[1].firstChild.src = _images_s2_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    arr[2].firstChild.src = _images_s3_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    arr[2].childNodes[1].textContent = \"Spicy Sichuan Broth\";\n    arr[1].childNodes[1].textContent = \"Premium Beef Platter\";\n    arr.forEach((c) => { Container.appendChild(c) });\n}\n\n//# sourceURL=webpack://module-restaurant/./src/Menu.js?\n}");
 
 /***/ }),
 
@@ -177,16 +187,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _To
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {\n\n    let Container = document.getElementById(\"main_content\");\n\n    let cont = document.createElement(\"div\");\n    cont.classList.add(\"cont\");\n    let text = document.createElement(\"h3\");\n    text.textContent = \"At Hotpot, we believe that great food is best enjoyed together. Our restaurant is dedicated to bringing people closer through the tradition of hotpot — a dining experience that’s as much about sharing stories as it is about savoring flavors.”\";\n    cont.appendChild(text);\n\n    Container.style.display = \"flex\";\n    Container.style.justifyContent = \"center\";\n    Container.appendChild(cont);\n}\n\n//# sourceURL=webpack://module-restaurant/./src/info.js?\n}");
-
-/***/ }),
-
-/***/ "./src/s.jpg":
-/*!*******************!*\
-  !*** ./src/s.jpg ***!
-  \*******************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("{module.exports = __webpack_require__.p + \"3dd542367b376d03a3e8.jpg\";\n\n//# sourceURL=webpack://module-restaurant/./src/s.jpg?\n}");
 
 /***/ }),
 
