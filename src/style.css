@@ -1,0 +1,123 @@
+body {
+    background-color: #1D1616;
+    height: 100vh;
+
+}
+
+header img {
+    position: relative;
+    left: -90px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-style: none;
+    background-size: 100% 100%;
+}
+
+nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.384);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+nav button {
+
+    width: 120px;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: inherit;
+    cursor: pointer;
+}
+
+nav button:hover {
+
+    font-size: 2.1rem;
+
+}
+
+.text_section {
+    text-align: center;
+    width: 310px;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero p {
+    color: azure;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.Hero h1 {
+    color: #db0b0b;
+}
+
+.Hero {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Hero img {
+
+    background-image: url(./../images/hot.jpg);
+    object-fit: cover;
+    width: 550px;
+    height: 370px;
+    background-size: contain;
+}
+
+.Hero button {
+    margin-top: 30px;
+    color: white;
+    background-color: inherit;
+    border: 2px solid #db0b0b;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.Hero button:hover {
+    background-color: #db0b0b;
+    font-size: 2rem;
+}
+
+
+.card {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    width: 400px;
+    height: 550px;
+    cursor: pointer;
+}
+
+.card:hover {
+    width: 410px;
+    height: 560px;
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+}
+
+.cont {
+    width: 60ch;
+    color: white;
+}
+
+#main_content {
+    text-align: center;
+}
